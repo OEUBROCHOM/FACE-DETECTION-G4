@@ -111,3 +111,4 @@ def save_frame():
             cv2.imwrite(path, frame)
             print(f"Camera frame saved as '{path}'")
             os.startfile(os.path.dirname(path))  # Opens the folder in File Explorer
+print("Hello")
